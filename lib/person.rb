@@ -5,3 +5,9 @@ class Person
   end 
  adele_Goldberg = Person.new("female","72")
  alan_kay = Person.new("male",)
+ def gender
+   @gender
+ end
+ def age
+   @age
+ end
